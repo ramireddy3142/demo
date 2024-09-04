@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/openbadges/v2",
+        {
+            "alumniOf": {
+                "@id": "http://schema.org/alumniOf",
+                "@type": "xsd:string"
+            }
+        },
+        "https://w3id.org/security/data-integrity/v2",
+        "https://w3id.org/blockcerts/v3.1"
+    ],
+    "credentialSubject": {
+        "alumniOf": {
+            "id": "https://www.human-logic.com/"
+        },
+        "id": "ecdsa-koblitz-pubkey:mtr98kany9G1XYNU74pRnfBQmaCg2FZLmc"
+    },
+    "id": "urn:uuid:7ed3b4c5-4eb7-4db1-899c-3fc661d1d732",
+    "issuanceDate": "2024-08-21T14:24:37Z",
+    "issuer": "https://raw.githubusercontent.com/sreenumalae/DataStorage/main/issuer.json",
+    "nonce": "6286QS6C5O",
+    "proof": {
+        "created": "2024-08-21T14:27:33.027759",
+        "cryptosuite": "merkle-proof-2019",
+        "id": "urn:uuid:5bf3a70f-86b1-4b69-a2da-76964a48ff4c",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z9nmN4tsD8AYm9om5WAcrbYydyXtRzbXEqizexpcT9zuBnNtf78R1JQKvT842HoQpLXB6vkHPFNJrkh2ojE8Ufj4rNm5NEELy7kjuzZcLcKSiFp6xKAnay8Z5v9nkaDLEiXuDBC42bFdmmQ47dsyiKTTP62tjEgU38QoSAbyBkT18wenz2nqjrgwUjHZV84USAZfL9BQh5i9YRHPXpDuZ4Fmep3EgNNaKztHQvxLVCS6YTEaBFoC77HRWLsqgG6DZttHnLdPirHmYnSUDZeNCnyq6UQdgY7FtwjMEfgsMtL59jmQdJKksEvMJqzeaexDcDGsLyvc3NydYezbQ5CHeP2sYL1naw7XzSKWkg46xNAVreFZb64FRpmpkrkboYEGduU9PqJ2dtgkwbp9NUnq1erV3Fv",
+        "type": "DataIntegrityProof",
+        "verificationMethod": null
+    },
+    "salt": "236",
+    "type": [
+        "VerifiableCredential",
+        "BlockcertsCredential"
+    ]
+}
